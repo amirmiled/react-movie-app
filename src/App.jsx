@@ -107,6 +107,7 @@ const addMovie = (movie) => {
 
   return (
       <div className='App'>
+      <h1 className='titree'>React-Movies</h1>
       <Search search={search} setRate={setRate} newRate={newRate}/>
       <Routes>
       <Route path='/' element={<MoviesList addMovie={addMovie} movies={movies.filter( el=> el.rate>= newRate && el.title.toLowerCase().includes(keysearch.toLowerCase().trim()))}/>} />

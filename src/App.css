@@ -24,6 +24,11 @@ html, body{
   padding: 10px;
 }
 
+.titree{
+  -webkit-text-fill-color: rgb(8, 6, 167);
+ text-align: center;
+}
+
 .movie_card{
   position: relative;
   display: block;
